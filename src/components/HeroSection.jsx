@@ -5,12 +5,6 @@ import "slick-carousel/slick/slick-theme.css";
 import ReactFlagsSelect from "react-flags-select";
 import { FaFacebook } from "react-icons/fa";
 
-// logo: https://getir.com/_next/static/images/bimutluluk-b3a7fcb14fc9a9c09b60d7dc9b1b8fd6.svg
-// foto1: https://cdn.getir.com/getirweb-images/common/hero-posters/getir-mainpage-4.jpg
-// foto2: https://cdn.getir.com/getirweb-images/common/hero-posters/getir-mainpage-2.jpg
-// foto3: https://cdn.getir.com/getirweb-images/common/hero-posters/getir-mainpage-1.jpg
-// foto4: https://cdn.getir.com/getirweb-images/common/hero-posters/getir-mainpage-3.jpg
-
 function HeroSection() {
   const [selected, setSelected] = useState("TR");
 
