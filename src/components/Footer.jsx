@@ -5,7 +5,7 @@ import { FiGlobe } from "react-icons/fi";
 
 function Footer() {
   return (
-    <div className="bg-white mt-10">
+    <div className="bg-white px-2 md:px-4 mt-10">
       <div className="container mx-auto px-4 md:px-0">
         <div className="grid md:grid-cols-4 gap-y-4 pt-5 md:pt-10">
           <section>
@@ -38,11 +38,11 @@ function Footer() {
           ))}
         </div>
         <div className="flex flex-col md:flex-row gap-y-4 justify-between items-center border-t border-gray-100 mt-6 py-6">
-          <div className="text-xs text-gray-700 flex gap-x-8">
-            &copy; 2023 Getir
+          <div className="text-xs text-center md:text-left text-gray-700 flex flex-col md:flex-row gap-x-8">
+            <h6 className="mb-2 md:mb-0">&copy; 2023 Getir</h6>
             <a
               href="https://e-sirket.mkk.com.tr/esir/Dashboard.jsp#/sirketbilgileri/18806"
-              className="text-primary-brand-color relative before:w-[3px] before:h-[3px] before:bg-black before:absolute before:-left-4 before:top-1/2 before:translate-y-1/2 before:rounded-full"
+              className="text-primary-brand-color relative before:w-[3px] before:h-[3px] md:before:text-white md:before:bg-black before:absolute before:-left-4 before:top-1/2 before:translate-y-1/2 before:rounded-full md:before:w-[5px"
             >
               Bilgi Toplumu Hizmetleri
             </a>
