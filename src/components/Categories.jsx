@@ -7,7 +7,6 @@ function Categories() {
   const [categories, setCategories] = useState([]);
 
   useEffect(() => {
-    // Request
     setCategories(categoryData);
   }, []);
 
