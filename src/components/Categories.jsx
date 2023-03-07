@@ -11,7 +11,7 @@ function Categories() {
   }, []);
 
   return (
-    <div className="bg-white py-4">
+    <div className="bg-white py-4 shadow">
       <div className="container mx-auto">
         <Title>Kategoriler</Title>
         <div className="grid grid-cols-10">
