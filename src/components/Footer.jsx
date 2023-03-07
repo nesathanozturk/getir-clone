@@ -1,4 +1,6 @@
 import Menu from "./ui/Menu";
+import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
+import { FiGlobe } from "react-icons/fi";
 
 function Footer() {
   const menus = [
@@ -96,6 +98,44 @@ function Footer() {
           {menus.map((menu, index) => (
             <Menu key={index} {...menu} />
           ))}
+        </div>
+        <div className="flex justify-between items-center border-t border-gray-100 mt-6 py-6">
+          <div className="text-xs text-gray-700 flex gap-x-8">
+            &copy; 2023 Getir
+            <a
+              href="#"
+              className="text-primary-brand-color relative before:w-[3px] before:h-[3px] before:bg-black before:absolute before:-left-4 before:top-1/2 before:translate-y-1/2 before:rounded-full"
+            >
+              Bilgi Toplumu Hizmetleri
+            </a>
+          </div>
+          <nav className="flex gap-x-3">
+            <a
+              href="#"
+              className="w-8 h-8 rounded-lg text-gray-500 transition-colors hover:bg-primary-brand-color hover:bg-opacity-10 hover:text-primary-brand-color flex items-center justify-center"
+            >
+              <FaFacebook size={21} />
+            </a>
+            <a
+              href="#"
+              className="w-8 h-8 rounded-lg text-gray-500 transition-colors hover:bg-primary-brand-color hover:bg-opacity-10 hover:text-primary-brand-color flex items-center justify-center"
+            >
+              <FaTwitter size={21} />
+            </a>
+            <a
+              href="#"
+              className="w-8 h-8 rounded-lg text-gray-500 transition-colors hover:bg-primary-brand-color hover:bg-opacity-10 hover:text-primary-brand-color flex items-center justify-center"
+            >
+              <FaInstagram size={21} />
+            </a>
+            <a
+              href="#"
+              className="h-8 transition-colors hover:bg-primary-brand-color hover:bg-opacity-10 hover:text-primary-brand-color hover:border-transparent flex items-center px-2 text-sm gap-x-2 rounded text-gray-500 border border-gray-100"
+            >
+              <FiGlobe size={18} />
+              Türkçe (TR)
+            </a>
+          </nav>
         </div>
       </div>
     </div>
