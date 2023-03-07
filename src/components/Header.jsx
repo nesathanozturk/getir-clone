@@ -4,7 +4,7 @@ import { HiUser, HiUserAdd } from "react-icons/hi";
 function Header() {
   return (
     <div className="bg-brand-color">
-      <div className="container mx-auto h-11 flex items-center justify-between">
+      <div className="container mx-auto h-16 md:h-11 flex items-center justify-center md:justify-between">
         <div className="flex items-center justify-center gap-x-7">
           <a href="https://getir.com/">
             <img
@@ -22,7 +22,7 @@ function Header() {
             getirsu
           </a>
         </div>
-        <nav className="flex gap-x-8 text-sm font-semibold">
+        <nav className="hidden md:flex gap-x-8 text-sm font-semibold">
           <a
             href="#"
             className="flex items-center gap-x-2 text-white transition text-opacity-80 hover:text-opacity-100"

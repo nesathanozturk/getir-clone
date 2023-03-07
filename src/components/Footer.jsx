@@ -6,8 +6,8 @@ import { FiGlobe } from "react-icons/fi";
 function Footer() {
   return (
     <div className="bg-white mt-10">
-      <div className="container mx-auto">
-        <div className="grid grid-cols-4 pt-10">
+      <div className="container mx-auto px-4 md:px-0">
+        <div className="grid md:grid-cols-4 gap-y-4 pt-5 md:pt-10">
           <section>
             <nav className="grid gap-y-4">
               <h6 className="text-lg text-primary-brand-color">
@@ -37,7 +37,7 @@ function Footer() {
             <Menu key={index} {...menu} />
           ))}
         </div>
-        <div className="flex justify-between items-center border-t border-gray-100 mt-6 py-6">
+        <div className="flex flex-col md:flex-row gap-y-4 justify-between items-center border-t border-gray-100 mt-6 py-6">
           <div className="text-xs text-gray-700 flex gap-x-8">
             &copy; 2023 Getir
             <a
