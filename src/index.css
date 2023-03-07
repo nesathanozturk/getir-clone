@@ -22,4 +22,8 @@
   .flag-select button > span span:nth-child(2) {
     @apply text-sm pl-1;
   }
+
+  .footer-social {
+    @apply w-8 h-8 rounded-lg text-gray-500 transition-colors hover:bg-primary-brand-color hover:bg-opacity-10 hover:text-primary-brand-color flex items-center justify-center;
+  }
 }

@@ -75,19 +75,19 @@ function Footer() {
               <h6 className="text-lg text-primary-brand-color">
                 Getir'i indirin!
               </h6>
-              <a href="#">
+              <a href="https://apps.apple.com/app/id995280265">
                 <img
                   src="https://getir.com/_next/static/images/appstore-tr-141ed939fceebdcee96af608fa293b31.svg"
                   alt="App Store"
                 />
               </a>
-              <a href="#">
+              <a href="https://play.google.com/store/apps/details?id=com.getir">
                 <img
                   src="https://getir.com/_next/static/images/googleplay-tr-6b0c941b7d1a65d781fb4b644498be75.svg"
                   alt="Google Play Store"
                 />
               </a>
-              <a href="#">
+              <a href="https://appgallery.huawei.com/#/app/C100954039">
                 <img
                   src="https://getir.com/_next/static/images/huawei-appgallery-tr-4b890fa3167bc62f9069edaf45aa7f30.svg"
                   alt="Huawei App Gallery"
@@ -103,28 +103,22 @@ function Footer() {
           <div className="text-xs text-gray-700 flex gap-x-8">
             &copy; 2023 Getir
             <a
-              href="#"
+              href="https://e-sirket.mkk.com.tr/esir/Dashboard.jsp#/sirketbilgileri/18806"
               className="text-primary-brand-color relative before:w-[3px] before:h-[3px] before:bg-black before:absolute before:-left-4 before:top-1/2 before:translate-y-1/2 before:rounded-full"
             >
               Bilgi Toplumu Hizmetleri
             </a>
           </div>
           <nav className="flex gap-x-3">
-            <a
-              href="#"
-              className="w-8 h-8 rounded-lg text-gray-500 transition-colors hover:bg-primary-brand-color hover:bg-opacity-10 hover:text-primary-brand-color flex items-center justify-center"
-            >
+            <a href="https://www.facebook.com/getir" className="footer-social">
               <FaFacebook size={21} />
             </a>
-            <a
-              href="#"
-              className="w-8 h-8 rounded-lg text-gray-500 transition-colors hover:bg-primary-brand-color hover:bg-opacity-10 hover:text-primary-brand-color flex items-center justify-center"
-            >
+            <a href="https://twitter.com/getir" className="footer-social">
               <FaTwitter size={21} />
             </a>
             <a
-              href="#"
-              className="w-8 h-8 rounded-lg text-gray-500 transition-colors hover:bg-primary-brand-color hover:bg-opacity-10 hover:text-primary-brand-color flex items-center justify-center"
+              href="https://www.instagram.com/getir/"
+              className="footer-social"
             >
               <FaInstagram size={21} />
             </a>
