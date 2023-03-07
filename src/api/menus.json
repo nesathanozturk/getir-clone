@@ -3,19 +3,24 @@
     "title": "Getir'i Keşfedin",
     "items": [
       {
-        "title": "Hakkımızda"
+        "title": "Hakkımızda",
+        "href": "https://getir.com/hakkimizda/"
       },
       {
-        "title": "Kariyer"
+        "title": "Kariyer",
+        "href": "https://career.getir.com/"
       },
       {
-        "title": "Teknoloji Kariyerleri"
+        "title": "Teknoloji Kariyerleri",
+        "href": "https://career.getir.com/"
       },
       {
-        "title": "İletişim"
+        "title": "İletişim",
+        "href": "https://getir.com/hakkimizda/iletisim/"
       },
       {
-        "title": "Sosyal Sorumluluk Projeleri"
+        "title": "Sosyal Sorumluluk Projeleri",
+        "href": "https://getir.com/sosyal-sorumluluk-projeleri/"
       }
     ]
   },
@@ -23,19 +28,24 @@
     "title": "Yardıma mı ihtiyacınız var?",
     "items": [
       {
-        "title": "Sıkça Sorulan Sorular"
+        "title": "Sıkça Sorulan Sorular",
+        "href": "https://getir.com/yardim/sss/"
       },
       {
-        "title": "Kişisel Verilerin Korunması"
+        "title": "Kişisel Verilerin Korunması",
+        "href": "https://getir.com/yardim/kvkk/"
       },
       {
-        "title": "Gizlilik Politikası"
+        "title": "Gizlilik Politikası",
+        "href": "https://getir.com/yardim/gizlilik-politikasi/"
       },
       {
-        "title": "Kullanım Koşulları"
+        "title": "Kullanım Koşulları",
+        "href": "https://getir.com/yardim/kullanim-kosullari/"
       },
       {
-        "title": "Çerez Politikası"
+        "title": "Çerez Politikası",
+        "href": "https://getir.com/yardim/cerez-politikasi/"
       }
     ]
   },
@@ -43,19 +53,24 @@
     "title": "İş Ortağımız Olun",
     "items": [
       {
-        "title": "Bayimiz Olun"
+        "title": "Bayimiz Olun",
+        "href": "https://getir.com/yardim/cerez-politikasi/"
       },
       {
-        "title": "Deponuzu Kiralayın"
+        "title": "Deponuzu Kiralayın",
+        "href": "https://depodukkan.getir.com/"
       },
       {
-        "title": "GetirYemek Restoranı Olun"
+        "title": "GetirYemek Restoranı Olun",
+        "href": "https://restoran.getiryemek.com/form/on-basvuru/"
       },
       {
-        "title": "GetirÇarşı İşletmesi Olun"
+        "title": "GetirÇarşı İşletmesi Olun",
+        "href": "https://panel.getircarsi.com/form/pre-application"
       },
       {
-        "title": "Zincir Restoranlar"
+        "title": "Zincir Restoranlar",
+        "href": "https://getir.com/yemek/markalar/"
       }
     ]
   }
