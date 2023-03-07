@@ -29,7 +29,7 @@ function HeroSection() {
   };
 
   return (
-    <div className="relative h-[500px] before:bg-gradient-to-r before:from-primary-brand-color before:to-transparent before:absolute before:inset-0 before:w-full before:h-full before:z-10">
+    <div className="relative h-auto md:h-[500px] before:bg-gradient-to-r before:from-primary-brand-color before:to-transparent before:absolute before:inset-0 before:w-full before:h-full before:z-10">
       <Slider {...settings}>
         <div>
           <img
@@ -61,7 +61,7 @@ function HeroSection() {
         </div>
       </Slider>
       <div className="container flex justify-between items-center absolute top-0 left-1/2 -translate-x-1/2 h-full z-20">
-        <div>
+        <div className="hidden md:block">
           <img
             src="https://getir.com/_next/static/images/bimutluluk-b3a7fcb14fc9a9c09b60d7dc9b1b8fd6.svg"
             alt="Getir"
@@ -72,7 +72,7 @@ function HeroSection() {
             <br />
           </h3>
         </div>
-        <div className="w-[400px] rounded-lg bg-gray-50 p-6">
+        <div className="w-full md:w-[400px] rounded-lg bg-gray-50 p-6">
           <h4 className="text-primary-brand-color mb-4 text-center font-semibold">
             Giriş yap veya kayıt ol
           </h4>
