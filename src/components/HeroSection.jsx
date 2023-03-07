@@ -3,7 +3,6 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import ReactFlagsSelect from "react-flags-select";
-import { FaFacebook } from "react-icons/fa";
 import { useWindowWidth } from "@react-hook/window-size";
 
 function HeroSection() {
