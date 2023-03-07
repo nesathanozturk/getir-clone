@@ -1,71 +1,9 @@
 import Menu from "./ui/Menu";
+import menus from "../api/menus.json";
 import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 import { FiGlobe } from "react-icons/fi";
 
 function Footer() {
-  const menus = [
-    {
-      title: "Getir'i Keşfedin",
-      items: [
-        {
-          title: "Hakkımızda",
-        },
-        {
-          title: "Kariyer",
-        },
-        {
-          title: "Teknoloji Kariyerleri",
-        },
-        {
-          title: "İletişim",
-        },
-        {
-          title: "Sosyal Sorumluluk Projeleri",
-        },
-      ],
-    },
-    {
-      title: "Yardıma mı ihtiyacınız var?",
-      items: [
-        {
-          title: "Sıkça Sorulan Sorular",
-        },
-        {
-          title: "Kişisel Verilerin Korunması",
-        },
-        {
-          title: "Gizlilik Politikası",
-        },
-        {
-          title: "Kullanım Koşulları",
-        },
-        {
-          title: "Çerez Politikası",
-        },
-      ],
-    },
-    {
-      title: "İş Ortağımız Olun",
-      items: [
-        {
-          title: "Bayimiz Olun",
-        },
-        {
-          title: "Deponuzu Kiralayın",
-        },
-        {
-          title: "GetirYemek Restoranı Olun",
-        },
-        {
-          title: "GetirÇarşı İşletmesi Olun",
-        },
-        {
-          title: "Zincir Restoranlar",
-        },
-      ],
-    },
-  ];
-
   return (
     <div className="bg-white mt-10">
       <div className="container mx-auto">
