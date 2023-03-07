@@ -102,13 +102,8 @@ function HeroSection() {
                 </span>
               </label>
             </div>
-            <button className="bg-brand-yellow text-primary-brand-color transition-colors hover:bg-primary-brand-color hover:text-brand-yellow h-12 flex items-center justify-center rounded-md w-full text-sm font-semibol">
+            <button className="bg-brand-yellow text-primary-brand-color transition-colors hover:bg-primary-brand-color hover:text-brand-yellow h-12 flex items-center justify-center rounded-md w-full text-sm font-semibold">
               Telefon numarası ile devam et
-            </button>
-            <hr className="h-[1px] bg-gray-200 my-2" />
-            <button className="bg-blue-700 px-4 bg-opacity-10 text-blue-700 text-opacity-80 h-12 flex items-center rounded-md w-full text-sm font-semibold">
-              <FaFacebook size={24} />
-              <span className="mx-auto">Facebook ile devam et</span>
             </button>
           </div>
         </div>

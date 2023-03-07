@@ -13,7 +13,6 @@ function App() {
   return (
     <>
       <Header />
-      {windowWidth < 768 && <Campaigns />}
       <HeroSection />
       <Categories />
       {windowWidth > 768 && <Campaigns />}
