@@ -1,7 +1,5 @@
 import { FiGlobe } from "react-icons/fi";
 import { HiUser, HiUserAdd } from "react-icons/hi";
-import { IoLocationSharp } from "react-icons/io5";
-import { IoIosArrowForward } from "react-icons/io";
 
 function Header() {
   return (
