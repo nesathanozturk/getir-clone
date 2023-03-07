@@ -50,7 +50,7 @@ function Campaigns() {
   };
 
   return (
-    <div className="container mx-auto py-8">
+    <div className="container mx-auto">
       <Title>Kampanyalar</Title>
       <Slider className="-mx-2" {...settings}>
         {banners.length &&
