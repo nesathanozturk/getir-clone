@@ -11,6 +11,10 @@
     font-family: "Open Sans", sans-serif;
   }
 
+  .hero-image {
+    @apply w-full h-[500px] object-cover;
+  }
+
   .flag-select {
     @apply !pb-0;
   }

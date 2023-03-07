@@ -34,29 +34,29 @@ function HeroSection() {
         <div>
           <img
             src="https://cdn.getir.com/getirweb-images/common/hero-posters/getir-mainpage-1.jpg"
-            alt=""
-            className="w-full h-[500px] object-cover"
+            alt="Slider Poster"
+            className="hero-image"
           />
         </div>
         <div>
           <img
             src="https://cdn.getir.com/getirweb-images/common/hero-posters/getir-mainpage-2.jpg"
-            alt=""
-            className="w-full h-[500px] object-cover"
+            alt="Slider Poster"
+            className="hero-image"
           />
         </div>
         <div>
           <img
             src="https://cdn.getir.com/getirweb-images/common/hero-posters/getir-mainpage-3.jpg"
-            alt=""
-            className="w-full h-[500px] object-cover"
+            alt="Slider Poster"
+            className="hero-image"
           />
         </div>
         <div>
           <img
             src="https://cdn.getir.com/getirweb-images/common/hero-posters/getir-mainpage-4.jpg"
-            alt=""
-            className="w-full h-[500px] object-cover"
+            alt="Slider Poster"
+            className="hero-image"
           />
         </div>
       </Slider>
