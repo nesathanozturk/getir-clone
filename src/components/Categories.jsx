@@ -14,7 +14,7 @@ function Categories() {
     <div className="bg-white py-4 shadow">
       <div className="container mx-auto">
         <Title>Kategoriler</Title>
-        <div className="grid grid-cols-10">
+        <div className="grid grid-cols-4 md:grid-cols-6 lg:grid-cols-8 xl:grid-cols-10">
           {categories &&
             categories.map((category, index) => (
               <CategoryItem key={index} category={category} />
