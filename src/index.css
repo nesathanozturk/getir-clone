@@ -1,13 +1,25 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  html,
+  body {
+    @apply antialiased bg-gray-50;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  .flag-select {
+    @apply !pb-0;
+  }
+
+  .flag-select button {
+    @apply h-14 border-2 bg-white rounded border-gray-200;
+  }
+
+  .flag-select button > span span:nth-child(2) {
+    @apply text-sm pl-1;
+  }
 }
