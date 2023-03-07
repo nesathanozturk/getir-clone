@@ -1,11 +1,40 @@
+import { useState } from "react";
 import { FiGlobe } from "react-icons/fi";
 import { HiUser, HiUserAdd } from "react-icons/hi";
 import { HiLocationMarker } from "react-icons/hi";
 import { IoIosArrowForward } from "react-icons/io";
+import { IoMdClose } from "react-icons/io";
 
 function Header() {
+  const [isOpen, setIsOpen] = useState(true);
+
   return (
     <>
+      <div
+        className={`container mx-auto flex justify-between items-center p-3 md:hidden ${
+          isOpen ? "flex" : "hidden"
+        }`}
+      >
+        <span
+          className="bg-purple-50 cursor-pointer p-1 rounded-full"
+          onClick={() => setIsOpen(false)}
+        >
+          <IoMdClose size={20} className="text-secondary-brand-color" />
+        </span>
+        <img
+          src="https://dl.memuplay.com/new_market/img/com.getir.icon.2022-06-07-18-51-54.png"
+          alt="Getir"
+          className="w-14 h-14 rounded-lg"
+        />
+        <div className="flex flex-col">
+          <h2 className="text-primary-brand-color font-bold">Getir</h2>
+          <p className="text-[10px] text-gray-700">196.754</p>
+          <small className="text-gray-700">Getir bi mutluluk!</small>
+        </div>
+        <button className="text-white text-sm font-bold p-1.5 rounded-md bg-primary-brand-color">
+          Uygulamayı Aç
+        </button>
+      </div>
       <div className="bg-brand-color">
         <div className="container mx-auto px-6 h-16 md:h-12 flex items-center justify-start md:justify-between">
           <div className="flex items-center md:justify-center md:gap-x-7">
