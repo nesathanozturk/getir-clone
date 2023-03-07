@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import categoryData from "../api/categories.json";
 import CategoryItem from "./ui/CategoryItem";
-import Title from "./ui/Title";
 
 function Categories() {
   const [categories, setCategories] = useState([]);
@@ -11,9 +10,9 @@ function Categories() {
   }, []);
 
   return (
-    <div className="bg-white py-4 shadow">
+    <div className="bg-gray-50 md:bg-white py-4 shadow">
       <div className="container mx-auto">
-        <Title>Kategoriler</Title>
+        <h3 className="text-sm font-semibold mb-1 px-6 md:px-5">Kategoriler</h3>
         <div className="grid grid-cols-4 md:grid-cols-6 lg:grid-cols-8 xl:grid-cols-10">
           {categories &&
             categories.map((category, index) => (

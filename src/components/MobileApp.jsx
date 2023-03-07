@@ -1,9 +1,9 @@
-import Title from "./ui/Title";
-
 function MobileApp() {
   return (
     <>
-      <Title className="hidden md:block">Kampanyalar</Title>
+      <h3 className="text-sm hidden md:block font-semibold mb-1 px-6 md:px-5">
+        Kategoriler
+      </h3>
       <div className="bg-primary-brand-color flex items-center justify-between md:mx-4 bg-mobile-app md:rounded-lg text-white">
         <div className="flex flex-col gap-y-3 p-10">
           <h3 className="text-2xl font-bold tracking-tight">Getir'i indirin</h3>

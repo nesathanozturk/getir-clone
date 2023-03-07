@@ -11,7 +11,7 @@ function App() {
       <Header />
       <HeroSection />
       <Categories />
-      <div className="container mx-auto grid gap-y-6 pt-8">
+      <div className="container mx-auto grid gap-y-6 md:pt-8">
         <MobileApp />
         <Cards />
       </div>

@@ -12,7 +12,11 @@
   }
 
   .header-links {
-    @apply text-gray-200 font-bold hover:bg-primary-brand-color p-2 rounded-md;
+    @apply text-sm md:text-base text-gray-200 font-bold hover:bg-primary-brand-color p-2 rounded-md;
+  }
+
+  .header-links2 {
+    @apply flex items-center gap-x-2 text-white transition text-opacity-80;
   }
 
   .hero-image {

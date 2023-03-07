@@ -65,7 +65,7 @@ function HeroSection() {
         </Slider>
       )}
       <div className="md:container flex justify-between items-center relative md:absolute top-0 left-0 md:left-1/2 translate-x-0 md:-translate-x-1/2 h-full z-20">
-        <div className="hidden md:block">
+        <div className="hidden md:block md:ml-4">
           <img
             src="https://getir.com/_next/static/images/bimutluluk-b3a7fcb14fc9a9c09b60d7dc9b1b8fd6.svg"
             alt="Getir"
@@ -76,7 +76,7 @@ function HeroSection() {
             <br />
           </h3>
         </div>
-        <div className="w-full md:w-[400px] md:rounded-lg bg-gray-50 p-6">
+        <div className="w-full md:w-[400px] md:rounded-lg md:mr-4 bg-gray-50 p-6">
           <h4 className="text-primary-brand-color mb-4 text-center font-semibold">
             Giriş yap veya kayıt ol
           </h4>
@@ -84,7 +84,7 @@ function HeroSection() {
             <div className="flex gap-x-2">
               <ReactFlagsSelect
                 countries={Object.keys(phones)}
-                customLabels={phones} // Çift süslü parantez ile yaparsak ülkeleri isimlerine göre alır.
+                customLabels={phones}
                 placeholder="Select Language"
                 onSelect={(code) => setSelected(code)}
                 selected={selected}
