@@ -11,6 +11,10 @@
     font-family: "Open Sans", sans-serif;
   }
 
+  .header-links {
+    @apply text-gray-200 font-bold hover:bg-primary-brand-color p-2 rounded-md;
+  }
+
   .hero-image {
     @apply w-full h-[500px] object-cover;
   }
