@@ -7,6 +7,10 @@ module.exports = {
       spacing: {
         0.1: "0.063rem",
       },
+      backgroundImage: {
+        "mobile-app":
+          "url(https://cdn.getir.com/getirweb-images/common/illustration/doodle.png)",
+      },
       colors: {
         "brand-color": "#4c3398",
         "primary-brand-color": "#5d3ebc",
