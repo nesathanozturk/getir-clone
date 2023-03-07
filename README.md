@@ -6,7 +6,8 @@
 
 - React JS
 - Tailwind for styles
-- Icons for Material UI
+- Icons for React Icons
+- Slider for React Slick
 
 ## Quick Start
 
