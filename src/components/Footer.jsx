@@ -9,10 +9,10 @@ function Footer() {
       <div className="container mx-auto px-4 md:px-0">
         <div className="grid md:grid-cols-4 gap-y-4 pt-5 md:pt-10">
           <section>
+            <h6 className="text-lg text-primary-brand-color mb-4">
+              Getir'i indirin!
+            </h6>
             <nav className="grid gap-y-4">
-              <h6 className="text-lg text-primary-brand-color">
-                Getir'i indirin!
-              </h6>
               <a href="https://apps.apple.com/app/id995280265">
                 <img
                   src="https://getir.com/_next/static/images/appstore-tr-141ed939fceebdcee96af608fa293b31.svg"
