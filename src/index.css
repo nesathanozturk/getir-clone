@@ -34,4 +34,8 @@
   .footer-social {
     @apply w-8 h-8 rounded-lg text-gray-500 transition-colors hover:bg-primary-brand-color hover:bg-opacity-10 hover:text-primary-brand-color flex items-center justify-center;
   }
+
+  .ReactCollapse--collapse {
+    @apply transition-all;
+  }
 }
