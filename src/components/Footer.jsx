@@ -91,6 +91,9 @@ function Footer() {
               </a>
             </nav>
           </section>
+          {menus.map((menu, index) => (
+            
+          ))}
         </div>
       </div>
     </div>
