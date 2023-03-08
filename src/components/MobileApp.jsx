@@ -2,7 +2,7 @@ function MobileApp() {
   return (
     <>
       <h3 className="text-sm hidden md:block font-semibold mb-1 px-6 md:px-5">
-        Kategoriler
+        Kampanyalar
       </h3>
       <div className="bg-primary-brand-color flex items-center justify-between md:mx-4 md:bg-mobile-app md:rounded-lg text-white">
         <div className="flex flex-col gap-y-3 p-10">
