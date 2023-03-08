@@ -40,6 +40,6 @@
   }
 
   .ReactCollapse--collapse {
-    @apply transition-all;
+    @apply transitions-all;
   }
 }

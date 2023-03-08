@@ -47,19 +47,24 @@ function Footer() {
               Bilgi Toplumu Hizmetleri
             </a>
           </div>
-          <nav className="flex gap-x-3">
-            <a href="https://www.facebook.com/getir" className="footer-social">
-              <FaFacebook size={21} />
-            </a>
-            <a href="https://twitter.com/getir" className="footer-social">
-              <FaTwitter size={21} />
-            </a>
-            <a
-              href="https://www.instagram.com/getir/"
-              className="footer-social"
-            >
-              <FaInstagram size={21} />
-            </a>
+          <nav className="flex flex-col md:flex-row justify-center items-center gap-y-2 md:gap-y-0  gap-x-3">
+            <div className="flex">
+              <a
+                href="https://www.facebook.com/getir"
+                className="footer-social"
+              >
+                <FaFacebook size={21} />
+              </a>
+              <a href="https://twitter.com/getir" className="footer-social">
+                <FaTwitter size={21} />
+              </a>
+              <a
+                href="https://www.instagram.com/getir/"
+                className="footer-social"
+              >
+                <FaInstagram size={21} />
+              </a>
+            </div>
             <a
               href="#"
               className="h-8 transition-colors hover:bg-primary-brand-color hover:bg-opacity-10 hover:text-primary-brand-color hover:border-transparent flex items-center px-2 text-sm gap-x-2 rounded text-gray-500 border border-gray-100"
