@@ -36,7 +36,7 @@ function Header() {
         </button>
       </div>
       <div className="bg-brand-color">
-        <div className="bg-brand-color container mx-auto px-6 h-16 md:h-12 md:fixed z-50 md:top-0 flex items-center justify-start md:justify-between">
+        <div className="bg-brand-color container mx-auto px-6 h-16 md:h-12 flex items-center justify-start md:justify-between">
           <div className="flex items-center md:justify-center md:gap-x-7">
             <a
               href="https://getir.com/"
