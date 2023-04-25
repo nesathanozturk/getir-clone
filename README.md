@@ -8,6 +8,7 @@
 - Tailwind for styles
 - Icons for React Icons
 - Slider for React Slick
+- React Flag Select
 
 ## Quick Start
 
